@@ -1,0 +1,89 @@
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff5e0;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff5e0;
+}
+
+
+.logo {
+    font-size: 2.2rem;
+    margin: 2.5rem 2.5rem;
+    color: #fff;
+    font-family: Nabla;
+    display: flex;
+}
+
+.navbar-links ul {
+    margin: 15px 10px 5px 10px;
+    padding: 0;
+}
+
+.navbar-links a:hover {
+    background-color: #ffe3ab;
+}
+
+.navbar-links img {
+    width: auto;
+    height: 100px;
+
+}
+
+/* Navbar /\ Credits \/ */
+
+.credits {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credits li {
+    list-style: none;
+    font-size: 0.9rem;
+    padding: 0 0 0.5rem;
+}
+
+.credits li a {
+    text-decoration: none;
+    color: #FFB037;
+    display: block;
+}
+ 
+@media (max-width: 800px) {
+    
+    .navbar-links ul {
+        width:40%;
+        flex-direction: row;
+    }
+    
+    .navbar-links li {
+        text-align: center;
+    }
+    
+    .navbar-links.active {
+        display: flex;
+    }
+}

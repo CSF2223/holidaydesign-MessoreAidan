@@ -5,16 +5,28 @@ html {
 
 body {
     background-color: #d42013;
+    margin: 0px;
 }
 
-.uhhh {
-    background-color: #fff;
+/* footer style */
+
+footer {
+    background-color: #edcaca;
+    padding : 50px;
+    text-align: center;
 }
 
-.test {
-    background-color: #fff;
+.copyRight {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #000000;
+    display: block;
 }
 
-.box {
-    padding: 1000rem;
+footer a {
+    text-decoration: none;
+    color: #000000;
 }
+
+/* end footer style */
